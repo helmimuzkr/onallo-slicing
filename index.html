@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Warteg Sari</title>
+    <title>CosilyID</title>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="style/main.css" rel="stylesheet" />
@@ -23,7 +23,7 @@
         bg-light
         navbar-store
         fixed-top
-        navbar-fixed-top
+        navbar-fixed-top 
       "
       data-aos="fade-down"
     >
@@ -40,24 +40,25 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a href="/index.html" class="nav-link">Beranda</a>
+              <a href="/index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="/menu.html" class="nav-link">Menu</a>
+              <a href="/shop.html" class="nav-link">Shop</a>
             </li>
             <li class="nav-item">
-              <a href="/kontak.html" class="nav-link">Kontak</a>
+              <a href="/size-guide.html" class="nav-link">Size Guide</a>
             </li>
             <li class="nav-item">
-              <a
-                href="/login.html"
-                class="btn btn-success nav-link px-4 text-white"
-                >Login
-              </a>
+              <a href="/contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
+          <a
+          href="/login.html"
+          class="btn btn-success nav-link px-4 text-white ml-auto"
+          >Login
+        </a>
         </div>
       </div>
     </nav>
@@ -65,28 +66,44 @@
     <!-- Page Content -->
     <div class="page-content pages-home">
       <!-- Hero -->
-      <section data-aos="fade-up" data-aos-delay="200">
+      <section class="store-carousel">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <div class="row">
-                <div class="col-md-6 align-self-center">
-                  <h1 class="home-tittle">Makan enak</h1>
-                  <h3 class="home-description my-3">
-                    dengan harga <br />terjangkau.
-                  </h3>
-                  <a
-                    href="/menu.html"
-                    class="btn btn-success px-4 text-white my-4"
-                    >Pesan
-                  </a>
-                </div>
-                <div class="col-md-6">
-                  <div id="imagecontentHome" class="text-right">
+            <div class="col-lg-12" data-aos="zoom-in">
+              <div
+                id="storeCarousel"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#storeCarousel"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#storeCarousel" data-slide-to="1"></li>
+                  <li data-target="#storeCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
                     <img
+                      src="/images/banner.jpg"
                       class="d-block w-100"
-                      src="/images/banner.png"
-                      alt="Banner"
+                      alt="Carousel Image"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/images/banner.jpg"
+                      class="d-block w-100"
+                      alt="Carousel Image"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/images/banner.jpg"
+                      class="d-block w-100"
+                      alt="Carousel Image"
                     />
                   </div>
                 </div>
@@ -101,7 +118,7 @@
         <div class="container">
           <div class="row text-center">
             <div class="col" data-aos="fade-up">
-              <h3>Pelayanan</h3>
+              <h3>Kenapa harus beli disini?</h3>
             </div>
           </div>
           <div class="row justify-content-center">
@@ -112,12 +129,12 @@
             >
               <img
                 class="services-image"
-                src="/images/makanan-enak.svg"
-                alt="makanan"
+                src="/images/shirt.svg"
+                alt="services"
               />
-              <div class="services-title">Makanan Enak</div>
+<!--               <div class="services-title">Kualitas</div> -->
               <div class="services-description">
-                Kami menawarkan<br />makanan yang lezat<br />dan higienis
+                Barang sesuai<br>dengan yang difoto
               </div>
             </div>
             <div
@@ -130,9 +147,9 @@
                 src="/images/murah.svg"
                 alt="harga-murah"
               />
-              <div class="services-title">Terjangkau</div>
+<!--               <div class="services-title">Terjangkau</div> -->
               <div class="services-description">
-                Harga makanan dan<br />minuman terjangkau
+                Harga miring!
               </div>
             </div>
             <div
@@ -145,9 +162,9 @@
                 src="/images/pengiriman.svg"
                 alt="pengiriman"
               />
-              <div class="services-title">Pengiriman</div>
+<!--               <div class="services-title">Pengiriman</div> -->
               <div class="services-description">
-                Gratis biaya<br />pengiriman sekitar<br />wilayah cibitung
+                Gratis biaya<br />pengiriman<br />dengan jarak 5km<
               </div>
             </div>
           </div>
@@ -155,11 +172,11 @@
       </section>
 
       <!-- Menu Favorit -->
-      <section class="menu-favorit">
+      <section class="new-arivals">
         <div class="container">
           <div class="row text-center">
             <div class="col-12" data-aos="fade-up">
-              <h3>Menu Favorit</h3>
+              <h3>New Arivals</h3>
             </div>
           </div>
           <div class="row">
@@ -244,7 +261,7 @@
               </a>
             </div>
         </div>
-        <div class="row ">
+<!--         <div class="row ">
           <div class="col-md-9 my-auto">
             <div class="order-button">
               <h4 class="my-auto" data-aos="fade-up" data-aos-delay="300">
@@ -264,7 +281,7 @@
                   </a>
               </div>
             </div>
-        </div>
+        </div> -->
       </section>
     </div>
     
@@ -273,24 +290,24 @@
       <div class="container">
         <div class="row" style="margin-top: 40px;">
           <div class="col-md-3">
-            <p class="font-weight-bold">Warteg Sari</p>
+            <p class="font-weight-bold">CosilyID</p>
           </div>
           <div class="col-md-3">
             <p class="font-weight-bold">Kontak Kami</p>
             <p>+62 8515 5288 869</p>
-            <p>wartegsari@gmail.com</p>
+            <p>cosilyid@gmail.com</p>
           </div>
           <div class="col-md-3">
             <p class="font-weight-bold">Alamat</p>
-            <p>JL. Raya Setu - Serang,
+<!--             <p>JL. Raya Setu - Serang,
               <br>Cibenning, Kec. Setu, 
               <br>Bekasi,
-              <br>Jawa Barat, 17320.</p>
+              <br>Jawa Barat, 17320.</p> -->
           </div>
         </div>
         <div class="row text-center" style="margin-top:40px;">
         <div class="col">
-          <p>2021 Copyright Warteg Sari. All Rights Reserved.</p>
+          <p>2021 Copyright CosilyID. All Rights Reserved.</p>
         </div>
       </div>
       </div>
