@@ -25,8 +25,8 @@
       text-decoration: none;
 
       &:hover {
-        color: #29a867;
-        border-bottom: 3px solid #29a867;
+        color: #073466;
+        border-bottom: 3px solid #073466;
       }
     }
 
@@ -34,7 +34,7 @@
       color: $textColor;
       background-color: #fff;
       border-color: #fff;
-      border-bottom: 3px solid #29a867 !important;
+      border-bottom: 3px solid #073466 !important;
     }
   }
 
@@ -98,6 +98,20 @@
       font-weight: 700;
       font-size: 16px;
       color: #0c0d36;
+    }
+  }
+
+  .pagination {
+    .active {
+      .page-link {
+        color: #fff;
+        background-color: $primaryColor;
+        border-color: $primaryColor;
+      }
+    }
+
+    .page-link {
+      color: $primaryColor;
     }
   }
 }
