@@ -11095,7 +11095,8 @@ p {
   height: 34px;
 }
 
-.store-cart .table-cart .btn-remove-cart:hover {
+.store-cart .table-cart .btn-remove-cart:hover,
+.store-cart .table-cart .btn-remove-cart :focus {
   opacity: 0.6 !important;
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
@@ -11103,6 +11104,7 @@ p {
 
 .store-cart .product-title {
   font-size: 1.125rem;
+  font-weight: bold;
   color: #0c0d36;
   margin-top: 15px;
 }
@@ -11110,6 +11112,50 @@ p {
 .store-cart .product-subtitle {
   font-size: 14px;
   color: #979797;
+}
+
+.page-success .row-login {
+  min-height: 75vh;
+}
+
+.page-success .section-success .btn-signup {
+  color: #bbbbbb !important;
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
+.page-success .section-success .btn-signup:hover {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-success .section-success .btn-signup:focus, .page-success .section-success .btn-signup.focus {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.page-success .section-success .btn-signup.disabled, .page-success .section-success .btn-signup:disabled {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
+.page-success .section-success .btn-signup:not(:disabled):not(.disabled):active, .page-success .section-success .btn-signup:not(:disabled):not(.disabled).active,
+.show > .page-success .section-success .btn-signup.dropdown-toggle {
+  color: #212529;
+  background-color: #dadada;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-success .section-success .btn-signup:not(:disabled):not(.disabled):active:focus, .page-success .section-success .btn-signup:not(:disabled):not(.disabled).active:focus,
+.show > .page-success .section-success .btn-signup.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
 }
 
 .categories-products {
