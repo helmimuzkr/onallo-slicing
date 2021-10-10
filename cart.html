@@ -126,89 +126,117 @@
 
       <section class="store-cart">
         <div class="container">
-          <!--  -->
+          <!-- Table Cart -->
           <div class="row">
-            <div class="col-12 table-tesponsive" data-aos="fade-up" data-aos-delay="100">
-              <table class="table table-borderless table-cart">
+            <div
+              class="col-12 table-tesponsive"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <table
+                class="table table-borderless table-cart"
+                aria-describedby="Cart"
+              >
                 <thead>
                   <tr>
-                    <td>Gambar</td>
-                    <td>Nama &amp; Size</td>
-                    <td>Harga</td>
-                    <td>Menu</td>
+                    <td scope="col">Gambar</td>
+                    <td scope="col">Nama &amp; Size</td>
+                    <td scope="col">Harga</td>
+                    <td scope="col">Menu</td>
                   </tr>
-                  <tbody>
-                    <tr>
-                      <td style="width: 25%;">
-                        <img src="/images/product-details-1.jpg" alt="" class="cart-image w-100">
-                      </td>
-                      <td style="width: 35%;">
-                        <div class="product-title">Jaket</div>
-                        <div class="product-subtitle">Ukuran XL</div>
-                      </td>
-                      <td style="width: 35%;">
-                        <div class="product-title">300,000</div>
-                        <div class="product-subtitle">Rupiah</div>
-                      </td>
-                      <td style="width: 20%;">
-                        <a href="#" class="btn btn-remove-cart">Hapus</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="width: 25%;">
-                        <img src="/images/product-details-1.jpg" alt="" class="cart-image w-100">
-                      </td>
-                      <td style="width: 35%;">
-                        <div class="product-title">Jaket</div>
-                        <div class="product-subtitle">Ukuran XL</div>
-                      </td>
-                      <td style="width: 35%;">
-                        <div class="product-title">300,000</div>
-                        <div class="product-subtitle">Rupiah</div>
-                      </td>
-                      <td style="width: 20%;">
-                        <a href="#" class="btn btn-remove-cart">Hapus</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="width: 25%;">
-                        <img src="/images/product-details-1.jpg" alt="" class="cart-image w-100">
-                      </td>
-                      <td style="width: 35%;">
-                        <div class="product-title">Jaket</div>
-                        <div class="product-subtitle">Ukuran XL</div>
-                      </td>
-                      <td style="width: 35%;">
-                        <div class="product-title">300,000</div>
-                        <div class="product-subtitle">Rupiah</div>
-                      </td>
-                      <td style="width: 20%;">
-                        <a href="#" class="btn btn-remove-cart">Hapus</a>
-                      </td>
-                    </tr>
-                  </tbody>
                 </thead>
+                <tbody>
+                  <tr>
+                    <td style="width: 25%">
+                      <img
+                        src="/images/image-cart.jpg"
+                        alt=""
+                        class="cart-image"
+                      />
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">Jaket</div>
+                      <div class="product-subtitle">Ukuran XL</div>
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">300,000</div>
+                      <div class="product-subtitle">Rupiah</div>
+                    </td>
+                    <td class="text-center" style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart px-0">
+                        <img src="images/trash-icon.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 25%">
+                      <img
+                        src="/images/image-cart.jpg"
+                        alt=""
+                        class="cart-image"
+                      />
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">Jaket</div>
+                      <div class="product-subtitle">Ukuran XL</div>
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">300,000</div>
+                      <div class="product-subtitle">Rupiah</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart">Hapus</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 25%">
+                      <img
+                        src="/images/image-cart.jpg"
+                        alt=""
+                        class="cart-image"
+                      />
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">Jaket</div>
+                      <div class="product-subtitle">Ukuran XL</div>
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">300,000</div>
+                      <div class="product-subtitle">Rupiah</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart">Hapus</a>
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </div>
           <!-- Garis Pembatas -->
           <div class="row" data-aos="fade-up" data-aos-delay="200">
             <div class="col-md-12">
-              <hr>
+              <hr />
             </div>
           </div>
           <!-- Form Alamat -->
-          <div class="row mb-2 aos-init" data-aos="fade-up" data-aos-delay="350">
+          <div
+            class="row mb-2 aos-init"
+            data-aos="fade-up"
+            data-aos-delay="350"
+          >
             <div class="col-12">
               <h5 class="mb-4">Detail Pengiriman</h5>
             </div>
             <div class="col-md-12">
               <div class="form-group">
                 <label for="address">Alamat</label>
-                <input 
-                type="text" class="form-control" id="address"
-                name="alamat"
-                value="Alamat">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address"
+                  name="alamat"
+                  value="Alamat"
+                />
               </div>
             </div>
             <div class="col-md-6">
@@ -246,26 +274,32 @@
             <div class="col-md-6">
               <div class="form-group">
                 <label for="name">Nama Penerima</label>
-                <input 
-                type="text" class="form-control" id="name"
-                name="name"
-                value="Nama Penerima">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  value="Nama Penerima"
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="mobile">Nomor Telepon</label>
-                <input 
-                type="text" class="form-control" id="mobile"
-                name="mobile"
-                value="Nomor Telepon">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="mobile"
+                  name="mobile"
+                  value="Nomor Telepon"
+                />
               </div>
             </div>
           </div>
           <!-- Garis Pembatas -->
           <div class="row" data-aos="fade-up" data-aos-delay="150">
             <div class="col-md-12">
-              <hr>
+              <hr />
             </div>
           </div>
           <!-- Checkout -->
@@ -288,10 +322,7 @@
               <div class="product-subtitle">Total</div>
             </div>
             <div class="col-12 col-md-3">
-              <a
-                href="/success.html"
-                class="btn btn-dark mt-4 px-4 btn-block"
-              >
+              <a href="/success.html" class="btn btn-dark mt-4 px-4 btn-block">
                 Checkout Now
               </a>
             </div>
