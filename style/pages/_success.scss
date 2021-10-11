@@ -2,10 +2,4 @@
   .row-login {
     min-height: 75vh;
   }
-  .section-success {
-    .btn-signup {
-      color: #bbbbbb !important;
-      @include button-variant(#f3f3f3, transparent);
-    }
-  }
 }

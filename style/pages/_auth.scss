@@ -1,0 +1,16 @@
+.page-auth {
+  .row-login {
+    min-height: 70vh;
+  }
+  .section-store-auth {
+    h2 {
+      color: $textColor;
+      margin-top: 0;
+    }
+
+    .form-control {
+      background: #f3f3f3;
+      border-radius: 8px;
+    }
+  }
+}

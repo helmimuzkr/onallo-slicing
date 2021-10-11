@@ -10849,6 +10849,7 @@ h1 {
   /* 52px */
 }
 
+/* H2 = 2rem/32px */
 h3 {
   font-size: 2.25rem;
   /* 36px */
@@ -10865,7 +10866,7 @@ h5 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .navbar-store {
@@ -11118,44 +11119,18 @@ p {
   min-height: 75vh;
 }
 
-.page-success .section-success .btn-signup {
-  color: #bbbbbb !important;
-  color: #212529;
-  background-color: #f3f3f3;
-  border-color: transparent;
+.page-auth .row-login {
+  min-height: 70vh;
 }
 
-.page-success .section-success .btn-signup:hover {
-  color: #212529;
-  background-color: #e0e0e0;
-  border-color: rgba(0, 0, 0, 0);
+.page-auth .section-store-auth h2 {
+  color: #0c0d36;
+  margin-top: 0;
 }
 
-.page-success .section-success .btn-signup:focus, .page-success .section-success .btn-signup.focus {
-  color: #212529;
-  background-color: #e0e0e0;
-  border-color: rgba(0, 0, 0, 0);
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
-}
-
-.page-success .section-success .btn-signup.disabled, .page-success .section-success .btn-signup:disabled {
-  color: #212529;
-  background-color: #f3f3f3;
-  border-color: transparent;
-}
-
-.page-success .section-success .btn-signup:not(:disabled):not(.disabled):active, .page-success .section-success .btn-signup:not(:disabled):not(.disabled).active,
-.show > .page-success .section-success .btn-signup.dropdown-toggle {
-  color: #212529;
-  background-color: #dadada;
-  border-color: rgba(0, 0, 0, 0);
-}
-
-.page-success .section-success .btn-signup:not(:disabled):not(.disabled):active:focus, .page-success .section-success .btn-signup:not(:disabled):not(.disabled).active:focus,
-.show > .page-success .section-success .btn-signup.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+.page-auth .section-store-auth .form-control {
+  background: #f3f3f3;
+  border-radius: 8px;
 }
 
 .categories-products {
@@ -11344,6 +11319,46 @@ p {
 
 .btn-dark {
   background-color: #073466;
+}
+
+.btn-signup {
+  color: #bbbbbb !important;
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
+.btn-signup:hover {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-signup:focus, .btn-signup.focus {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.btn-signup.disabled, .btn-signup:disabled {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
+.btn-signup:not(:disabled):not(.disabled):active, .btn-signup:not(:disabled):not(.disabled).active,
+.show > .btn-signup.dropdown-toggle {
+  color: #212529;
+  background-color: #dadada;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-signup:not(:disabled):not(.disabled):active:focus, .btn-signup:not(:disabled):not(.disabled).active:focus,
+.show > .btn-signup.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
 }
 
 .slide-fade-enter-active {
