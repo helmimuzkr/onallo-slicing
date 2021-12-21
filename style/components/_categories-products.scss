@@ -30,8 +30,20 @@
       }
     }
 
+    .list-group-item {
+      border: none;
+
+      &:hover {
+        font-weight: 500;
+        color: $primaryColor;
+        background-color: #fff;
+        border-color: #fff;
+      }
+    }
+
     .active {
       color: $textColor;
+      font-weight: 500;
       background-color: #fff;
       border-color: #fff;
       border-bottom: 3px solid #073466 !important;

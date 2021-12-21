@@ -145,12 +145,13 @@
 
     .nav-pills {
       .nav-link {
+        font-weight: normal;
         font-size: 18px;
         color: #9191a9;
         border-radius: 0;
         &.active {
           color: #0c0d36;
-          border-bottom: 2px solid #0c0d36;
+          border-bottom: 3px solid #0c0d36;
           background: none;
         }
       }

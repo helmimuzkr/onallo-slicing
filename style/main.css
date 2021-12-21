@@ -11276,6 +11276,7 @@ p {
 }
 
 .page-dashboard .section-content .nav-pills .nav-link {
+  font-weight: normal;
   font-size: 18px;
   color: #9191a9;
   border-radius: 0;
@@ -11283,7 +11284,7 @@ p {
 
 .page-dashboard .section-content .nav-pills .nav-link.active {
   color: #0c0d36;
-  border-bottom: 2px solid #0c0d36;
+  border-bottom: 3px solid #0c0d36;
   background: none;
 }
 
@@ -11326,8 +11327,20 @@ p {
   border-bottom: 3px solid #073466;
 }
 
+.categories-products .page-categories .list-group-item {
+  border: none;
+}
+
+.categories-products .page-categories .list-group-item:hover {
+  font-weight: 500;
+  color: #073466;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 .categories-products .page-categories .active {
   color: #0c0d36;
+  font-weight: 500;
   background-color: #fff;
   border-color: #fff;
   border-bottom: 3px solid #073466 !important;
