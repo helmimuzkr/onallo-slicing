@@ -113,6 +113,10 @@
     }
 
     .dashboard-content {
+      .row {
+        margin: auto;
+      }
+
       .card {
         background: #fefefe;
         box-shadow: 0px 4px 15px #f1f1f8;
