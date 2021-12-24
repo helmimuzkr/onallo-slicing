@@ -1,0 +1,139 @@
+[33mcommit 5183f450aa9b70c2460877c96a0c050620eb8266[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31mgithub/main[m[33m)[m
+Author: helmimuzkr <mhelmimuzakir@gmail.com>
+Date:   Fri Dec 24 22:30:58 2021 +0700
+
+    dashboard-prodcts, half-done(1/2)
+
+[1mdiff --git a/dashboard-product.html b/dashboard-products.html[m
+[1msimilarity index 54%[m
+[1mrename from dashboard-product.html[m
+[1mrename to dashboard-products.html[m
+[1mindex 06a3ba2..9f1ecc6 100644[m
+[1m--- a/dashboard-product.html[m
+[1m+++ b/dashboard-products.html[m
+[36m@@ -98,7 +98,7 @@[m
+                       alt=""[m
+                       class="rounded-circle mr-2 profile-picture"[m
+                     />[m
+[31m-                    Hi, Angga[m
+[32m+[m[32m                    Hi, Helmi[m
+                   </a>[m
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">[m
+                     <a class="dropdown-item" href="/index.html"[m
+[36m@@ -129,6 +129,108 @@[m
+             </div>[m
+           </nav>[m
+           <!-- Section Content -->[m
+[32m+[m[32m          <div[m
+[32m+[m[32m            class="section-content section-dashboard-home"[m
+[32m+[m[32m            data-aos="fade-up"[m
+[32m+[m[32m          >[m
+[32m+[m[32m            <div class="container-fluid">[m
+[32m+[m[32m              <div class="dashboard-heading">[m
+[32m+[m[32m                <h2 class="dashboard-title">My Products</h2>[m
+[32m+[m[32m                <p class="dashboard-subtitle">Manage it well and get money</p>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="dashboard-content">[m
+[32m+[m[32m              <div class="row">[m
+[32m+[m[32m                <div class="col-12">[m
+[32m+[m[32m                  <a href="/dashboard-products-create" class="btn btn-dark"[m
+[32m+[m[32m                    >Tambah Produk</a[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div class="row mt-4">[m
+[32m+[m[32m                <div class="col-12 col-sm-6 col-md-4 col-lg-3">[m
+[32m+[m[32m                  <a[m
+[32m+[m[32m                    href="/dashboard-products-details.html"[m
+[32m+[m[32m                    class="card card-dashboard-products d-block"[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <div class="card-body">[m
+[32m+[m[32m                      <img[m
+[32m+[m[32m                        src="/images/dashboard-product-card.png"[m
+[32m+[m[32m                        alt=""[m
+[32m+[m[32m                        class="w-100 mb-2"[m
+[32m+[m[32m                      />[m
+[32m+[m[32m                      <div class="product-title">Kaos Polos</div>[m
+[32m+[m[32m                      <div class="product-category">T-Shirt</div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                  </a>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="col-12 col-sm-6 col-md-4 col-lg-3">[m
+[32m+[m[32m                  <a[m
+[32m+[m[32m                    href="/dashboard-products-details.html"[m
+[32m+[m[32m                    class="card card-dashboard-products d-block"[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <div class="card-body">[m
+[32m+[m[32m                      <img[m
+[32m+[m[32m                        src="/images/dashboard-product-card.png"[m
+[32m+[m[32m                        alt=""[m
+[32m+[m[32m                        class="w-100 mb-2"[m
+[32m+[m[32m                      />[m
+[32m+[m[32m                      <div class="product-title">Kaos Polos</div>[m
+[32m+[m[32m                      <div class="product-category">T-Shirt</div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                  </a>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="col-12 col-sm-6 col-md-4 col-lg-3">[m
+[32m+[m[32m                  <a[m
+[32m+[m[32m                    href="/dashboard-products-details.html"[m
+[32m+[m[32m                    class="card card-dashboard-products d-block"[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <div class="card-body">[m
+[32m+[m[32m                      <img[m
+[32m+[m[32m                        src="/images/dashboard-product-card.png"[m
+[32m+[m[32m                        alt=""[m
+[32m+[m[32m                        class="w-100 mb-2"[m
+[32m+[m[32m                      />[m
+[32m+[m[32m                      <div class="product-title">Kaos Polos</div>[m
+[32m+[m[32m                      <div class="product-category">T-Shirt</div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                  </a>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="col-12 col-sm-6 col-md-4 col-lg-3">[m
+[32m+[m[32m                  <a[m
+[32m+[m[32m                    href="/dashboard-products-details.html"[m
+[32m+[m[32m                    class="card card-dashboard-products d-block"[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <div class="card-body">[m
+[32m+[m[32m                      <img[m
+[32m+[m[32m                        src="/images/dashboard-product-card.png"[m
+[32m+[m[32m                        alt=""[m
+[32m+[m[32m                        class="w-100 mb-2"[m
+[32m+[m[32m                      />[m
+[32m+[m[32m                      <div class="product-title">Kaos Polos</div>[m
+[32m+[m[32m                      <div class="product-category">T-Shirt</div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                  </a>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="col-12 col-sm-6 col-md-4 col-lg-3">[m
+[32m+[m[32m                  <a[m
+[32m+[m[32m                    href="/dashboard-products-details.html"[m
+[32m+[m[32m                    class="card card-dashboard-products d-block"[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <div class="card-body">[m
+[32m+[m[32m                      <img[m
+[32m+[m[32m                        src="/images/dashboard-product-card.png"[m
+[32m+[m[32m                        alt=""[m
+[32m+[m[32m                        class="w-100 mb-2"[m
+[32m+[m[32m                      />[m
+[32m+[m[32m                      <div class="product-title">Kaos Polos</div>[m
+[32m+[m[32m                      <div class="product-category">T-Shirt</div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                  </a>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+         </div>[m
+         <!-- #Page Content -->[m
+       </div>[m
+[1mdiff --git a/images/dashboard-product-card.png b/images/dashboard-product-card.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..029fb98[m
+Binary files /dev/null and b/images/dashboard-product-card.png differ
+[1mdiff --git a/images/dashboard-product-image.png b/images/dashboard-product-image.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..029fb98[m
+Binary files /dev/null and b/images/dashboard-product-image.png differ

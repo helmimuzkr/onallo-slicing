@@ -11495,6 +11495,27 @@ p {
   color: #979797;
 }
 
+.card-dashboard-products {
+  margin-bottom: 20px;
+}
+
+.card-dashboard-products .card-body {
+  padding: 15px;
+}
+
+.card-dashboard-products .card-body .product-title {
+  font-weight: normal;
+  font-size: 1.125rem;
+  color: #073466;
+}
+
+.card-dashboard-products .card-body .product-subtitle {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #525252;
+  margin: auto;
+}
+
 .btn-dark {
   background-color: #073466;
 }

@@ -1,0 +1,18 @@
+.card-dashboard-products {
+  margin-bottom: 20px;
+  .card-body {
+    padding: 15px;
+    .product-title {
+      font-weight: normal;
+      font-size: 1.125rem;
+      color: $primaryColor;
+    }
+
+    .product-subtitle {
+      font-weight: normal;
+      font-size: 1rem;
+      color: $textsecColor;
+      margin: auto;
+    }
+  }
+}
