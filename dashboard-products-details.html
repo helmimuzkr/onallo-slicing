@@ -120,7 +120,7 @@
               <!-- Mobile Menu -->
               <ul class="navbar-nav d-block d-lg-none mt-3">
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> Hi, Angga </a>
+                  <a class="nav-link" href="#"> Hi, Helmi </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link d-inline-block" href="#"> Cart </a>
@@ -135,8 +135,8 @@
           >
             <div class="container-fluid">
               <div class="dashboard-heading">
-                <h2 class="dashboard-title">Create New Product</h2>
-                <p class="dashboard-subtitle">Create your own product</p>
+                <h2 class="dashboard-title">Kaos Polos</h2>
+                <p class="dashboard-subtitle">Product Details</p>
               </div>
             </div>
             <div class="dashboard-content">
@@ -197,30 +197,95 @@
                               ></div>
                             </div>
                           </div>
-                          <div class="col-md-12">
+                          <div class="col-md-12 px-0">
                             <div class="form-group">
-                              <label for="thumbnails">Thumbnails</label>
-                              <input
-                                type="file"
-                                multiple
-                                class="form-control pt-1"
-                                name="thumbnails"
-                                id="thumbnails"
-                                aria-describedby="thumbnails"
-                              />
-                              <small class="text-muted">
-                                Kamu dapat memilih lebih dari satu file
-                              </small>
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <label for="update-photo"
+                                    >Update Photos</label
+                                  >
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="gallery-container">
+                                    <img
+                                      src="/images/dashboard-product-card.png"
+                                      alt=""
+                                      class="w-100"
+                                    />
+                                    <a href="#" class="delete-gallery">
+                                      <img
+                                        src="/images/icon-remove.svg"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="gallery-container">
+                                    <img
+                                      src="/images/dashboard-product-card.png"
+                                      alt=""
+                                      class="w-100"
+                                    />
+                                    <a href="#" class="delete-gallery">
+                                      <img
+                                        src="/images/icon-remove.svg"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="gallery-container">
+                                    <img
+                                      src="/images/dashboard-product-card.png"
+                                      alt=""
+                                      class="w-100"
+                                    />
+                                    <a href="#" class="delete-gallery">
+                                      <img
+                                        src="/images/icon-remove.svg"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col mt-3">
+                                  <input
+                                    type="file"
+                                    id="file"
+                                    style="display: none"
+                                    multiple
+                                  />
+                                  <button
+                                    type="button"
+                                    class="
+                                      btn btn-secondary btn-block
+                                      py-2
+                                      px-5
+                                    "
+                                    onclick="thisFileUpload()"
+                                  >
+                                    Add Photo
+                                  </button>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
-                        <div class="row mt-2">
-                          <div class="col text-right">
+                        <div class="row mt-3">
+                          <div class="col-12 text-right">
                             <button
                               type="submit"
-                              class="btn btn-dark btn-block py-2 px-5"
+                              class="btn btn-danger py-2 px-5 x mr-2"
                             >
-                              Add Product
+                              Delete Product
+                            </button>
+                            <button
+                              type="submit"
+                              class="btn btn-dark py-2 px-5"
+                            >
+                              Update Product
                             </button>
                           </div>
                         </div>
@@ -279,6 +344,11 @@
         .catch((error) => {
           console.error(error);
         });
+    </script>
+    <script>
+      function thisFileUpload() {
+        document.getElementById("file").click();
+      }
     </script>
   </body>
 </html>
