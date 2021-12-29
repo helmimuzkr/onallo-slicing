@@ -81,43 +81,44 @@
     @include media-breakpoint-up(md) {
       margin-top: 20px;
       margin-left: 20px;
+
+      .margin-form {
+        margin-left: 50px;
+      }
     }
 
     .dashboard-title {
       font-weight: normal;
       font-size: 24px;
-      color: #0c0d36;
+      color: $textColor;
     }
     .dashboard-subtitle {
-      font-weight: 300;
+      font-weight: 400;
       font-size: 16px;
       color: #9191a9;
     }
 
     .product-title {
-      font-size: 14px;
+      font-size: 18px;
       line-height: 25px;
       color: #979797;
     }
     .product-subtitle {
       font-size: 18px;
       line-height: 30px;
-      color: #0c0d36;
-      margin-bottom: 20px;
+      color: $textColor;
+      margin-top: 10px;
+      margin-bottom: 25px;
     }
 
     h5 {
       font-weight: 500;
-      font-size: 18px;
+      font-size: 22px;
       line-height: 27px;
-      color: #0c0d36;
+      color: $textColor;
     }
 
     .dashboard-content {
-      .row {
-        margin: auto;
-      }
-
       .card {
         background: #fefefe;
         box-shadow: 0px 4px 15px #f1f1f8;
