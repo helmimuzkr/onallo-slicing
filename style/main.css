@@ -10830,7 +10830,7 @@ body {
 
 footer {
   border-top: 1px solid #e4e4e4;
-  margin-top: 150px;
+  margin-top: 100px;
   background-color: #f5f5fb;
 }
 
@@ -11305,6 +11305,45 @@ p {
   position: absolute;
   top: -10px;
   right: 0;
+}
+
+.pages-contact {
+  /* Component */
+}
+
+.pages-contact h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 45px;
+  color: #073466;
+}
+
+.pages-contact .title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #073466;
+}
+
+.pages-contact .text {
+  font-size: 1rem;
+  color: #0c0d36;
+}
+
+.pages-contact .card {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.pages-contact .card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.5) !important;
+          box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.5) !important;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .categories-products {
