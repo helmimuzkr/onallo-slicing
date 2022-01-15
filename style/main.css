@@ -11346,6 +11346,10 @@ p {
           transform: scale(1.05);
 }
 
+.pages-contact .map {
+  overflow: hidden;
+}
+
 .categories-products {
   margin-top: 50px;
 }
